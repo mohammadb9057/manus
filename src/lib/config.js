@@ -12,8 +12,8 @@ export const config = {
   // API configuration
   api: {
     baseUrl: process.env.NODE_ENV === 'production' 
-      ? 'https://your-vercel-app.vercel.app/api' 
-      : 'http://localhost:3000/api',
+      ? 'https://manus-flax.vercel.app/api' 
+      : 'https://manus-flax.vercel.app/api',
     timeout: 30000,
     retries: 3,
   },
