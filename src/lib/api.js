@@ -5,7 +5,7 @@ const API_BASE_URL = process.env.NODE_ENV === 'production'
   ? 'https://your-vercel-app.vercel.app/api' 
   : 'http://localhost:3000/api';
 
-const api = axios.create({
+export const api = axios.create({
   baseURL: API_BASE_URL,
   headers: {
     'Content-Type': 'application/json',
@@ -185,4 +185,3 @@ export const templatesAPI = {
 };
 
 export default api;
-
