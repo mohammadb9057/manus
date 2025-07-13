@@ -2,8 +2,8 @@ import axios from 'axios';
 
 // Base API configuration
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://your-vercel-app.vercel.app/api' 
-  : 'http://localhost:3000/api';
+  ? 'https://manus-flax.vercel.app/api' 
+  : 'https://manus-flax.vercel.app/api';
 
 export const api = axios.create({
   baseURL: API_BASE_URL,
